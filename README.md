@@ -50,20 +50,7 @@ Sigue los pasos recomendados.
 
 ---
 
-## 5. Clona un Proyecto de Ejemplo
-
-1. Abre una terminal en VSCode (`Ctrl+``).
-2. Ejecuta el siguiente comando (puedes cambiar la ruta si lo necesitas):
-
-   ```
-   git clone https://github.com/espressif/esp-idf-template.git
-   ```
-
-3. Abre la carpeta clonada en VSCode.
-
----
-
-## 6. Compila y Flashea tu Primer Proyecto
+## 5. Compila y Flashea tu Primer Proyecto
 
 1. Conecta tu placa ESP a la computadora.
 2. En la barra lateral de ESP-IDF, selecciona **"Build, Flash and Monitor"**.
@@ -83,3 +70,11 @@ Sigue los pasos recomendados.
 - Si la extensión no detecta Python o Git, revisa que estén en el PATH del sistema.
 - Revisa la consola de VSCode para mensajes de error durante la instalación.
 - Consulta el foro de Espressif si tienes problemas con drivers o hardware.
+
+## Verificación de requerimientos
+1. windows + R
+2. Escribir 'cmd' y enter
+3. Ver las versiones
+   * git --version
+   * code --version
+   * python --version
